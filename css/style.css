@@ -53,3 +53,47 @@ a {
 .feature-item {
   text-align: center;
 }
+
+.index-columns {
+  color: #000000;
+
+  background-color: #f8f5f2;
+  background-image: url("../img/bg-column.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+.news-list {
+  list-style: none;
+}
+
+.new-item time {
+  text-transform: none;
+}
+
+.gallery-content {
+  background-color: #e5e5e5;
+  border: 7px solid #ffffff;
+}
+
+.btn {
+  font: inherit;
+
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: #000000;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: #663d15;
+}
