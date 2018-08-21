@@ -6,12 +6,15 @@ body {
   font-size: 14px;
   line-height: 24px;
   font-weight: bold;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
 
   background-color: #000000;
   background-image: url("../img/bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
+}
 
+a {
+  text-decoration: none;
 }
