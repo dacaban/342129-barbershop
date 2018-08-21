@@ -18,3 +18,25 @@ body {
 a {
   text-decoration: none;
 }
+
+.main-navigation {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+
+  background-color: #000000;
+}
+
+.main-navigation a {
+  color: #ffffff;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+  background-color: #242424;
+}
+
+.main-menu,
+.user-navigation {
+  list-style: none;
+}
