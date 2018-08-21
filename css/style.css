@@ -40,3 +40,16 @@ a {
 .user-navigation {
   list-style: none;
 }
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.feature-item {
+  text-align: center;
+}
