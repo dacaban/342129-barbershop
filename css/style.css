@@ -141,6 +141,100 @@ a {
   color: #aba9a7;
 }
 
+.filters fieldset {
+  border: none;
+}
+
+.filters legend {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.filters ul {
+  list-style: none;
+  line-height: 18px;
+}
+
+.filter-option label:hover,
+.filter-option label:focus {
+  color: #663d15;
+}
+
+.filter-option label:disabled {
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.products-list {
+  list-style: none;
+}
+
+.product-item {
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-item a {
+  color: #000000;
+}
+
+.product-item h3 {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.product-category {
+  text-transform: none;
+}
+
+.price b {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+
+  background-color: #e5e5e5;
+}
+
+.price .btn {
+  color: #ffffff;
+  line-height: 20px;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-list a {
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.pagination-list a:hover,
+.pagination-list a:focus,
+.pagination-list a:active {
+  background-color: #663d15;
+}
+
+.pagination-list .active {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.pagination-list .active:hover,
+.pagination-list .active:focus,
+.pagination-list .active:active{
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
 .main-footer {
   color: #ffffff;
 
