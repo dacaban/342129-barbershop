@@ -235,6 +235,29 @@ a {
   background-color: #ffffff;
 }
 
+.photos .preview {
+  list-style: none;
+}
+
+.preview li,
+.photos .full{
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.info .article {
+  color: #aeaeae;
+  text-align: right;
+}
+
+.info h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.info ul {
+  list-style: none;
+}
+
 .main-footer {
   color: #ffffff;
 
