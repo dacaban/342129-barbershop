@@ -15,6 +15,15 @@ body {
   background-repeat: no-repeat;
 }
 
+.inner-page {
+  color: #000000;
+
+  background-color: #f8f5f2;
+  background-image: url("../img/bg-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
 a {
   text-decoration: none;
 }
@@ -37,6 +46,7 @@ a {
 }
 
 .main-menu,
+.site-navigation,
 .user-navigation {
   list-style: none;
 }
@@ -58,7 +68,7 @@ a {
   color: #000000;
 
   background-color: #f8f5f2;
-  background-image: url("../img/bg-column.jpg");
+  background-image: url("../img/bg-light.jpg");
   background-position: 0 0;
   background-repeat: repeat;
 }
@@ -109,11 +119,33 @@ a {
   border-color: #663d15 ;
 }
 
+.page-title {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs a{
+  color: #000000;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  text-decoration: underline;
+}
+
+.breadcrumbs .active {
+  color: #aba9a7;
+}
+
 .main-footer {
   color: #ffffff;
 
   background-color: #212121;
-  background-image: url("../img/bg-footer.jpg");
+  background-image: url("../img/bg-dark.jpg");
   background-position: 0 0;
   background-repeat: repeat ;
 }
@@ -159,7 +191,7 @@ a {
   color: #000000;
 
   background-color: #f8f5f2;
-  background-image: url("../img/bg-column.jpg");
+  background-image: url("../img/bg-light.jpg");
   background-position: 0 0;
   background-repeat: repeat;
 }
